@@ -1,0 +1,108 @@
+/* CONTENTS
+- SITEWIDE
+- INDEX
+*/
+
+/* SITEWIDE ----------------------------------------------------------- */
+:root {
+  --buildforall-color-light-blue: #1B5A75; /* on #FFFFFF = WCAG AAA */
+  --buildforall-color-dark-blue: #003459; /* on #FFFFFF = WCAG AAA */
+  --buildforall-color-purple: #5F0F40; /* on #FFFFFF = WCAG AAA */
+  --buildforall-color-red: #9A031E; /* on #FFFFFF = WCAG AAA */
+
+  --text-color-black: #2B2E40; /* on #FFFFFF = WCAG AAA */
+  --text-color-grey: #535565; /* on #FFFFFF = WCAG AAA */
+  --box-color-light-grey: #C0C1C0; /* with #2B2E40 = WCAG AAA */
+  --box-color-dark-grey: #454645; /* on #FFFFFF = WCAG AAA */
+  --border-color-light-grey: #E6E6E6; /* with #2B2E40 = WCAG AAA */
+  --background-color-light-grey: #F8F9F8; /* with #2B2E40 = WCAG AAA */
+  --background-color-dark-blue: #202231; /* on #FFFFFF = WCAG AAA */
+  --white: #FFFFFF; /* with #2B2E40 = WCAG AAA */
+  --debugging-grey: #CCCCCC; /* ALL FAIL */
+}
+
+body {
+  font-family: 'Verdana', sans-serif;
+  padding-top: 75px;
+  max-width: 1000px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.background-white {
+  background-color: var(--white) !important;
+}
+
+.background-light-grey {
+  background-color: var(--background-color-light-grey) !important;
+}
+
+.background-light-blue {
+  background-color: var(--buildforall-color-light-blue) !important;
+}
+
+.background-dark-blue {
+  background-color: var(--buildforall-color-dark-blue) !important;
+}
+
+.background-purple {
+  background-color: var(--buildforall-color-purple) !important;
+}
+
+.color-white {
+  color: var(--white) !important;
+}
+
+.color-grey {
+  color: var(--text-color-grey) !important;
+}
+
+.font-bold {
+  font-weight: bold !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.margin-auto {
+  margin: 0 auto !important;
+}
+
+
+/* INDEX ----------------------------------------------------------- */
+.index-section-1 h1 {
+  padding: 50px 0px 25px 0px;
+  /* font-size: 2em; */
+}
+
+.index-section-1 ul {
+  list-style-type: none;
+  padding: 0px;
+  margin-bottom: 25px;
+}
+
+.index-section-1 li {
+  font-size: 1.5em;
+  width: 50%;
+  margin: 10px auto 10px auto;
+  padding: 10px 0px 10px 20px;
+  cursor: pointer;
+}
+
+.index-section-2 h1 {
+  padding: 50px 0px 50px 0px;
+}
+
+.index-circle {
+  border-radius: 100%;
+  max-width: 20px;
+  min-width: 20px;
+  height: 20px;
+}
