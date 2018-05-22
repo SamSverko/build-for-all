@@ -16,6 +16,7 @@
   --box-color-dark-grey: #454645; /* on #FFFFFF = WCAG AAA */
   --border-color-light-grey: #E6E6E6; /* with #2B2E40 = WCAG AAA */
   --background-color-light-grey: #F8F9F8; /* with #2B2E40 = WCAG AAA */
+  --background-color-lighter-grey: #FAFAFA; /* with #535565 = WCAG AAA */
   --background-color-dark-blue: #202231; /* on #FFFFFF = WCAG AAA */
   --white: #FFFFFF; /* with #2B2E40 = WCAG AAA */
   --debugging-grey: #CCCCCC; /* ALL FAIL */
@@ -23,12 +24,16 @@
 
 body {
   font-family: 'Verdana', sans-serif;
-  padding-top: 75px;
+  padding: 72px 20px 20px 20px;
   max-width: 1000px;
 }
 
 h1 {
   font-size: 2em;
+}
+
+hr {
+  margin: 50px 0px;
 }
 
 .background-white {
@@ -37,6 +42,10 @@ h1 {
 
 .background-light-grey {
   background-color: var(--background-color-light-grey) !important;
+}
+
+.background-lighter-grey {
+  background-color: var(--background-color-lighter-grey) !important;
 }
 
 .background-light-blue {
@@ -71,8 +80,16 @@ h1 {
   text-align: left;
 }
 
+.text-right {
+  text-align: right;
+}
+
 .margin-auto {
   margin: 0 auto !important;
+}
+
+.test-border {
+  border: 1px solid red;
 }
 
 
@@ -100,9 +117,45 @@ h1 {
   padding: 50px 0px 50px 0px;
 }
 
-.index-circle {
-  border-radius: 100%;
-  max-width: 20px;
-  min-width: 20px;
-  height: 20px;
+.index-section-2 img {
+  width: 50%;
+  text-align: right;
+}
+
+.index-section-2-author {
+  line-height: 0.5em;
+  font-size: 0.8em;
+  padding: 6px 0px 0px 0px;
+}
+
+.index-section-3 h1 {
+  padding: 0px 0px 50px 0px;
+}
+
+.index-section-3 img {
+  width: 50%;
+  padding: 10px 0px 10px 0px;
+}
+
+.index-section-3 .row {
+  margin: 50px 0px 0px 0px;
+  /* border-bottom: 1px solid var(--box-color-light-grey); */
+  /* padding: 10px; */
+}
+
+#index-section-3-top-left {
+  /* border-bottom: 1px solid var(--box-color-light-grey); */
+  border-right: 1px solid var(--box-color-light-grey);
+  /* height: 100px; */
+}
+
+#index-section-3-top-middle {
+  border-right: 1px solid var(--box-color-light-grey);
+  /* height: 100px; */
+}
+
+#index-section-3-top-right {
+  /* border-left: 1px solid var(--box-color-light-grey); */
+  /* border-bottom: 1px solid var(--box-color-light-grey); */
+  /* height: 100px; */
 }

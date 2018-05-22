@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="css/master.css">
   <title>Build for All - Home</title>
 </head>
-<body class="background-light-grey margin-auto">
+<body class="background-white margin-auto">
 
   <nav class="navbar navbar-expand-sm fixed-top navbar-light background-white">
     <a href="index.php" class="color-grey"><span class="navbar-brand mb-0 h1 color-grey font-bold" style="padding-left: 10px;">Inclusive Innovation</span></a>
