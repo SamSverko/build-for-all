@@ -3,8 +3,8 @@
 <div class="container-fluid contain-to-1000 footer-section-1">
   <div class="row">
     <div class="col-sm-8">
-      <h1 class="font-bold">Startups for a better world</h1>
-      <p class="color-grey">Let's chat.</p>
+      <h1 tabindex="0" class="font-bold">Startups for a better world</h1>
+      <p tabindex="0" class="color-grey">Let's chat.</p>
     </div>
     <div class="col-sm-4 text-right">
       <button type="button" class="btn" name="contact-us-button">CONTACT US</button>
@@ -20,7 +20,7 @@
       <div class="row">
         <div class="col-sm-4">
           <ul>
-            <li class="font-bold" style="margin-bottom: 15px;">SITE</li>
+            <li tabindex="0" class="font-bold" style="margin-bottom: 15px;">SITE</li>
             <a href="#" target="_self"><li>About</li></a>
             <a href="#" target="_self"><li>Contact</li></a>
             <a href="#" target="_self"><li>Site Map</li></a>
@@ -28,7 +28,7 @@
         </div>
         <div class="col-sm-4">
           <ul>
-            <li class="font-bold" style="margin-bottom: 15px;">CONTENT</li>
+            <li tabindex="0" class="font-bold" style="margin-bottom: 15px;">CONTENT</li>
             <a href="#" target="_self"><li>Advertising</li></a>
             <a href="#" target="_self"><li>Auditing</li></a>
             <a href="#" target="_self"><li>Design</li></a>
@@ -38,7 +38,7 @@
         </div>
         <div class="col-sm-4">
           <ul>
-            <li class="font-bold" style="margin-bottom: 15px;">RESOURCES</li>
+            <li tabindex="0" class="font-bold" style="margin-bottom: 15px;">RESOURCES</li>
             <a href="#" target="_self"><li>WCAG 2.0</li></a>
             <a href="#" target="_self"><li>AODA</li></a>
           </ul>
