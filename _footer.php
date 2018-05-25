@@ -1,6 +1,6 @@
-<hr style="background-color: var(--border-color-light-grey);">
+<hr class="contain-to-1000">
 
-<div class="container-fluid footer-section-1">
+<div class="container-fluid contain-to-1000 footer-section-1">
   <div class="row">
     <div class="col-sm-8">
       <h1 class="font-bold">Startups for a better world</h1>
@@ -12,35 +12,35 @@
   </div>
 </div>
 
-<hr style="background-color: var(--border-color-light-grey); margin-top: 30px;">
+<hr class="contain-to-1000" style="margin-top: 30px;">
 
-<div class="container-fluid footer-section-2 color-grey">
+<div class="container-fluid contain-to-1000 footer-section-2 color-grey">
   <div class="row">
     <div class="col-sm-12 footer-section-2-lists">
       <div class="row">
         <div class="col-sm-4">
           <ul>
             <li class="font-bold" style="margin-bottom: 15px;">SITE</li>
-            <li>About</li>
-            <li>Contact</li>
-            <li>Site Map</li>
+            <a href="#" target="_self"><li>About</li></a>
+            <a href="#" target="_self"><li>Contact</li></a>
+            <a href="#" target="_self"><li>Site Map</li></a>
           </ul>
         </div>
         <div class="col-sm-4">
           <ul>
             <li class="font-bold" style="margin-bottom: 15px;">CONTENT</li>
-            <li>Advertising</li>
-            <li>Auditing</li>
-            <li>Design</li>
-            <li>Sales</li>
-            <li>SEO</li>
+            <a href="#" target="_self"><li>Advertising</li></a>
+            <a href="#" target="_self"><li>Auditing</li></a>
+            <a href="#" target="_self"><li>Design</li></a>
+            <a href="#" target="_self"><li>Sales</li></a>
+            <a href="#" target="_self"><li>SEO</li></a>
           </ul>
         </div>
         <div class="col-sm-4">
           <ul>
             <li class="font-bold" style="margin-bottom: 15px;">RESOURCES</li>
-            <li>WCAG 2.0</li>
-            <li>AODA</li>
+            <a href="#" target="_self"><li>WCAG 2.0</li></a>
+            <a href="#" target="_self"><li>AODA</li></a>
           </ul>
         </div>
       </div>
@@ -48,20 +48,21 @@
   </div>
 </div>
 
-<div class="container-fluid background-lighter-grey color-grey footer-section-3">
-  <div class="row">
-    <div class="col-sm-3 testy">
-      <p class="font-bold">Privacy & Terms</p>
-    </div>
-    <div class="col-sm-3 testy">
-      <p class="font-bold">Contact</p>
-    </div>
-    <div class="col-sm-6 testy">
-      <p class="font-bold text-right">© Inclusive Innovation 2018</p>
+<div class="background-lighter-grey">
+  <div class="container-fluid contain-to-1000 color-grey footer-section-3">
+    <div class="row">
+      <div class="col-sm-3">
+        <p class="font-bold"><a href="#" target="_self">Privacy & Terms</a></p>
+      </div>
+      <div class="col-sm-3">
+        <p class="font-bold"><a href="#" target="_self">Contact</a></p>
+      </div>
+      <div class="col-sm-6">
+        <p class="font-bold"><a href="#" target="_self">© Inclusive Innovation 2018</a></p>
+      </div>
     </div>
   </div>
 </div>
-
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

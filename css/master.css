@@ -1,7 +1,8 @@
 /* CONTENTS
 - SITEWIDE
-- INDEX
+- HEADER
 - FOOTER
+- INDEX
 */
 
 /* SITEWIDE ----------------------------------------------------------- */
@@ -26,7 +27,6 @@
 body {
   font-family: 'Verdana', sans-serif;
   padding: 72px 0px 0px 0px;
-  max-width: 1000px;
 }
 
 h1 {
@@ -34,7 +34,13 @@ h1 {
 }
 
 hr {
-  margin: 50px 0px;
+  margin: 50px auto;
+  width: 90%;
+  background-color: var(--border-color-light-grey);
+}
+
+.contain-to-1000 {
+  max-width: 1000px;
 }
 
 .background-white {
@@ -95,6 +101,88 @@ hr {
 
 .test-border {
   border: 1px solid red;
+}
+
+/* HEADER ----------------------------------------------------------- */
+nav a {
+  color: var(--text-color-grey);
+}
+
+nav a:hover {
+  color: var(--text-color-black);
+}
+
+.navbar-brand:hover {
+  color: var(--text-color-black) !important;
+}
+
+
+/* FOOTER ----------------------------------------------------------- */
+.footer-section-1 button {
+  padding: 15px 30px;
+  color: var(--white);
+  font-weight: bold;
+  background-color: var(--buildforall-color-light-blue);
+}
+
+.footer-section-1 button:hover {
+  background-color: var(--text-color-black);
+}
+
+.footer-section-2-lists {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: 0;
+  text-align: left;
+}
+
+.footer-section-2 ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.footer-section-2 a {
+  text-decoration: none;
+  color: var(--text-color-grey);
+}
+
+.footer-section-2 a:hover {
+  color: var(--text-color-black);
+}
+
+@media only screen and (max-width: 575px) {
+  .footer-section-2-lists {
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+.footer-section-3 {
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.footer-section-3 .row .col-sm-6 {
+  text-align: right;
+}
+
+.footer-section-3 a {
+  text-decoration: none;
+  color: var(--text-color-grey);
+}
+
+.footer-section-3 a:hover {
+  color: var(--text-color-black);
+}
+
+@media only screen and (max-width: 575px) {
+  .footer-section-3 .row {
+    text-align: center;
+  }
+
+  .footer-section-3 .row .col-sm-6 {
+    text-align: center;
+  }
 }
 
 
@@ -174,40 +262,4 @@ hr {
   #index-section-3-top-middle {
     border: none;
   }
-}
-
-
-/* FOOTER ----------------------------------------------------------- */
-.footer-section-1 button {
-  padding: 15px 30px;
-  color: var(--white);
-  font-weight: bold;
-  background-color: var(--buildforall-color-light-blue);
-}
-
-.footer-section-2-lists {
-  max-width: 500px;
-  margin-left: auto;
-  margin-right: 0;
-  text-align: left;
-}
-
-.footer-section-2 ul {
-  list-style-type: none;
-  padding: 0px;
-}
-
-@media only screen and (max-width: 575px) {
-  .footer-section-2-lists {
-    margin: 0 auto;
-    text-align: center;
-  }
-}
-
-.footer-section-3 .row {
-  max-width: 1000px;
-}
-
-.testy {
-    border: 1px solid red;
 }

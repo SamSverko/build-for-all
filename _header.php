@@ -14,7 +14,7 @@
 <body class="background-white margin-auto">
 
   <nav class="navbar navbar-expand-sm fixed-top navbar-light background-white">
-    <a href="index.php" class="color-grey"><span class="navbar-brand mb-0 h1 color-grey font-bold" style="padding-left: 10px;">Inclusive Innovation</span></a>
+    <a href="index.php"><span class="navbar-brand mb-0 h1 font-bold" style="padding-left: 10px; color: var(--text-color-grey)">Inclusive Innovation</span></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>

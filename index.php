@@ -3,7 +3,7 @@ $pageTitle = "Home";
 require_once "_header.php";
 ?>
 
-<div class="container-fluid index-section-1 color-white text-center">
+<div class="container-fluid contain-to-1000 index-section-1 color-white text-center">
   <div class="row">
     <div class="col-md-6 background-dark-blue">
       <h1>What is your role?</h1>
@@ -26,7 +26,7 @@ require_once "_header.php";
   </div>
 </div>
 
-<div class="container-fluid index-section-2">
+<div class="container-fluid contain-to-1000 index-section-2">
   <h1 class="font-bold text-center">Latest article</h1>
   <div class="row">
     <div class="col-sm-6 background-light-blue" id="index-section-2-img">
@@ -47,20 +47,20 @@ require_once "_header.php";
   </div>
 </div>
 
-<hr style="background-color: var(--border-color-light-grey);">
+<hr class="contain-to-1000">
 
-<div class="container-fluid index-section-3 text-center">
+<div class="container-fluid contain-to-1000 index-section-3 text-center">
   <h1 class="font-bold">You're in good company</h1>
   <p class="color-grey">Many influencial companies have already made their businesses accessible.</p>
   <div class="row align-items-center">
     <div class="col-sm-4" id="index-section-3-top-left">
-      <img src="img/logo_ryerson_grey.png" alt="Ryerson University logo">
+      <a href="https://www.ryerson.ca/" target="_blank"><img src="img/logo_ryerson_grey.png" alt="Ryerson University logo"></a>
     </div>
     <div class="col-sm-4" id="index-section-3-top-middle">
-      <img src="img/logo_chang_school_grey.png" alt="The Chang School of Continuing Education logo">
+      <a href="https://ce-online.ryerson.ca/ce/default.aspx" target="_blank"><img src="img/logo_chang_school_grey.png" alt="The Chang School of Continuing Education logo"></a>
     </div>
     <div class="col-sm-4" id="index-section-3-top-right">
-      <img src="img/logo_dmz_grey.png" alt="DMZ logo">
+      <a href="https://dmz.ryerson.ca/" target="_blank"><img src="img/logo_dmz_grey.png" alt="DMZ logo"></a>
     </div>
   </div>
 </div>
