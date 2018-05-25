@@ -1,4 +1,11 @@
 $(document).ready(function() {
-  if (window.location.pathname == "/build-for-all/index.php") {
-  }
+  console.log("Page is ready.");
 });
+
+function on_index_load() {
+  $('#nav-index').addClass("active");
+}
+
+function on_about_load() {
+  $('#nav-about').addClass("active");
+}

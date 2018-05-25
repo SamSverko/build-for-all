@@ -14,7 +14,7 @@
 <body class="background-white margin-auto">
 
   <nav class="navbar navbar-expand-sm fixed-top navbar-light background-white">
-    <a href="index.php"><span class="navbar-brand mb-0 h1 font-bold" style="padding-left: 10px; color: var(--text-color-grey)">Inclusive Innovation</span></a>
+    <a href="index.php"><span class="navbar-brand mb-0 h1 font-bold" style="padding-left: 10px; color: var(--text-color-grey)" id="nav-index">Inclusive Innovation</span></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -33,7 +33,7 @@
             <a class="nav-link color-grey" href="#">Resources</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link color-grey" href="#">About</a>
+            <a class="nav-link color-grey" href="about.php" id="nav-about">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link color-grey" href="#">Contact</a>

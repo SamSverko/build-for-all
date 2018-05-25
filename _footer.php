@@ -21,7 +21,7 @@
         <div class="col-sm-4">
           <ul>
             <li tabindex="0" class="font-bold" style="margin-bottom: 15px;">SITE</li>
-            <a href="#" target="_self"><li>About</li></a>
+            <a href="about.php" target="_self"><li>About</li></a>
             <a href="#" target="_self"><li>Contact</li></a>
             <a href="#" target="_self"><li>Site Map</li></a>
           </ul>
@@ -58,7 +58,7 @@
         <p class="font-bold"><a href="#" target="_self">Contact</a></p>
       </div>
       <div class="col-sm-6">
-        <p class="font-bold"><a href="#" target="_self">© Inclusive Innovation 2018</a></p>
+        <p class="font-bold"><a href="index.php" target="_self">© Inclusive Innovation 2018</a></p>
       </div>
     </div>
   </div>

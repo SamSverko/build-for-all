@@ -116,6 +116,10 @@ nav a:hover {
   color: var(--text-color-black) !important;
 }
 
+.active {
+  color: var(--text-color-black) !important;
+}
+
 
 /* FOOTER ----------------------------------------------------------- */
 .footer-section-1 button {
@@ -262,4 +266,68 @@ nav a:hover {
   #index-section-3-top-middle {
     border: none;
   }
+}
+
+
+/* ABOUT ----------------------------------------------------------- */
+.about-section-1 {
+  text-align: center;
+}
+
+.about-section-1 h1 {
+  padding: 50px 0px 25px 0px;
+}
+
+.about-section-1 p {
+  max-width: 600px;
+  margin: 0 auto;
+  color: var(--text-color-grey);
+}
+
+#about-section-1-img {
+  margin-top: 25px;
+  width: 100%;
+  height: 300px;
+  background-color: var(--buildforall-color-light-blue);
+}
+
+.about-section-2 h1 {
+  padding: 50px 0px 25px 0px;
+}
+
+.about-section-2 .col-sm-4 {
+  margin: 0 auto;
+  max-width: 250px;
+}
+
+.about-section-2-lg {
+  font-size: 2.5em;
+}
+
+.about-section-3 h1 {
+  padding: 0px 0px 25px 0px;
+}
+
+#about-section-3-img {
+  width: 100%;
+  height: 275px;
+  background-color: var(--buildforall-color-light-blue);
+}
+
+.about-section-4 {
+  text-align: center;
+}
+
+.about-section-4 h1 {
+  padding: 0px 0px 25px 0px;
+}
+
+.about-section-4 .row {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.about-section-4 img {
+  width: 75%;
+  margin-bottom: 25px;
 }

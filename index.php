@@ -68,3 +68,7 @@ require_once "_header.php";
 <?php
 require_once "_footer.php";
 ?>
+
+<script type="text/javascript">
+$(document).ready(on_index_load());
+</script>
