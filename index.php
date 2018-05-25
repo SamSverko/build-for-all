@@ -3,7 +3,7 @@ $pageTitle = "Home";
 require_once "_header.php";
 ?>
 
-<div class="index-section-1 color-white text-center">
+<div class="container-fluid index-section-1 color-white text-center">
   <div class="row">
     <div class="col-md-6 background-dark-blue">
       <h1>What is your role?</h1>
@@ -26,10 +26,10 @@ require_once "_header.php";
   </div>
 </div>
 
-<div class="index-section-2">
+<div class="container-fluid index-section-2">
   <h1 class="font-bold text-center">Latest article</h1>
   <div class="row">
-    <div class="col-sm-6 background-light-blue">
+    <div class="col-sm-6 background-light-blue" id="index-section-2-img">
     </div>
     <div class="col-sm-6">
       <p class="font-bold">A new article about accessible SEO</p>
@@ -49,7 +49,7 @@ require_once "_header.php";
 
 <hr style="background-color: var(--border-color-light-grey);">
 
-<div class="index-section-3 text-center">
+<div class="container-fluid index-section-3 text-center">
   <h1 class="font-bold">You're in good company</h1>
   <p class="color-grey">Many influencial companies have already made their businesses accessible.</p>
   <div class="row align-items-center">
@@ -64,8 +64,6 @@ require_once "_header.php";
     </div>
   </div>
 </div>
-
-<hr style="background-color: var(--border-color-light-grey);">
 
 <?php
 require_once "_footer.php";
