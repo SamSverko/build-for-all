@@ -1,3 +1,7 @@
+<?php
+require_once __DIR__ . "/inc/config.php";
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -9,7 +13,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
   <!-- local CSS -->
   <link rel="stylesheet" href="css/master.css">
-  <title>Build for All - Home</title>
+  <title>Build for All - <?php echo $pageTitle ?></title>
 </head>
 <body class="background-white margin-auto">
 
@@ -27,7 +31,7 @@
       <span class="navbar-text" style="padding-right: 10px;">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link color-grey" href="#">Content</a>
+            <a class="nav-link color-grey" href="content.php" id="nav-content">Content</a>
           </li>
           <li class="nav-item">
             <a class="nav-link color-grey" href="#">Resources</a>

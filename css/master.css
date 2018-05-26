@@ -104,6 +104,10 @@ hr {
 }
 
 /* HEADER ----------------------------------------------------------- */
+nav {
+  border-bottom: 1px solid var(--border-color-light-grey);
+}
+
 nav a {
   color: var(--text-color-grey);
 }
@@ -329,5 +333,39 @@ nav a:hover {
 
 .about-section-4 img {
   width: 75%;
+  max-width: 240px;
   margin-bottom: 25px;
+}
+
+
+/* ABOUT ----------------------------------------------------------- */
+.content-section-1 h1 {
+  padding: 50px 0px 50px 0px;
+}
+
+.content-section-1 p {
+  cursor: pointer;
+}
+
+.content-section-1-banner {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 15px;
+}
+
+.content-section-1-author-img-p {
+  align-items: center;
+  height: 100px;
+}
+
+.content-section-1-author {
+  width: 100%;
+  max-width: 100px;
+  text-align: right;
+}
+
+.content-section-1-content-author {
+  line-height: 0.5em;
+  font-size: 0.8em;
+  padding: 0px 0px 0px 15px;
 }

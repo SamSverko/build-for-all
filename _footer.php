@@ -22,7 +22,7 @@
           <ul>
             <li tabindex="0" class="font-bold" style="margin-bottom: 15px;">SITE</li>
             <a href="about.php" target="_self"><li>About</li></a>
-            <a href="#" target="_self"><li>Contact</li></a>
+            <a href="content.php" target="_self"><li>Contact</li></a>
             <a href="#" target="_self"><li>Site Map</li></a>
           </ul>
         </div>
