@@ -26,7 +26,7 @@ require_once "_header.php";
   </div>
 </div>
 
-<div class="container-fluid contain-to-1000 index-section-2">
+<!-- <div class="container-fluid contain-to-1000 index-section-2">
   <h1 tabindex="0" class="font-bold text-center">Latest article</h1>
   <div class="row">
     <div class="col-sm-6 background-light-blue" id="index-section-2-img">
@@ -45,7 +45,9 @@ require_once "_header.php";
       </div>
     </div>
   </div>
-</div>
+</div> -->
+
+<?php include_once __DIR__ .  "/content/latest-article.php"; ?>
 
 <hr class="contain-to-1000">
 

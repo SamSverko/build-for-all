@@ -24,18 +24,24 @@ function pre_out($x, $header = NULL) {
   echo "</pre>";
 }
 
+// get author picture src
 function get_author_picture($author) {
   $image_src = "img/image_";
   if ($author == "Katlynn Sverko") {
     $image_src .= "katlynn";
+    $image_alt = "katlynn sverko headshot";
   } else if ($author == "Marcela Correa Villada") {
     $image_src .= "marcela";
+    $image_alt = "marcela correa villada headshot";
   } else if ($author == "Sam Legros") {
     $image_src .= "sam";
+    $image_alt = "sam legros headshot";
   }
   $image_src .= ".jpg";
 
-  return $image_src;
+  $author_info = array($image_src, $image_alt);
+
+  return $author_info;
 }
 
 // php console.log() equivalent for json objects
