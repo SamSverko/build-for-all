@@ -369,3 +369,21 @@ nav a:hover {
   font-size: 0.8em;
   padding: 0px 0px 0px 15px;
 }
+
+.content-section-2 {
+  color: var(--text-color-grey);
+  text-align: center;
+}
+
+.content-section-2 .row {
+  max-width: 650px;
+}
+
+.content-section-2 p:hover {
+  cursor: pointer;
+  color: var(--text-color-black);
+}
+
+.content-section-2 .col-sm-3 {
+  /* border: 1px solid red; */
+}
