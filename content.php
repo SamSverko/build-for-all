@@ -10,16 +10,16 @@ include "content/_latest-article.php"; // content-section-1
 <div class="container-fluid contain-to-1000 content-section-2">
   <div class="row">
     <div class="col-sm-3">
-      <p class="content-category-button" id="content-business">BUSINESS</p>
+      <p class="content-category-button" id="content_business">BUSINESS</p>
     </div>
     <div class="col-sm-3">
-      <p class="content-category-button" id="content-design">DESIGN</p>
+      <p class="content-category-button" id="content_design">DESIGN</p>
     </div>
     <div class="col-sm-3">
-      <p class="content-category-button" id="content-development">DEVELOPMENT</p>
+      <p class="content-category-button" id="content_development">DEVELOPMENT</p>
     </div>
     <div class="col-sm-3">
-      <p class="content-category-button" id="content-stories">STORIES</p>
+      <p class="content-category-button" id="content_stories">STORIES</p>
     </div>
   </div>
 </div>

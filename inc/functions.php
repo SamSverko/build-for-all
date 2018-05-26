@@ -17,7 +17,7 @@ function get_latest_post() {
 // get article
 function get_article($article_id) {
   $article = ORM::for_table('content')->where_like('id', $article_id)->find_one();
-  
+
   return $article;
 }
 
@@ -33,6 +33,32 @@ function get_banner($banner_id) {
   $banner = ORM::for_table('banner_img')->where_like('id', $banner_id)->find_one();
 
   return $banner;
+}
+
+// get articles from category
+function get_articles_by_category($category) {
+  $categories = ORM::for_table('content_categories')->where_like($category, 1)->find_many();
+
+  $info = array();
+  $articles = array();
+  $authors = array();
+  $banners = array();
+
+  for ($i = 0; $i < count($categories); $i++) {
+    array_push($articles, ORM::for_table('content')->where_like('id', $categories[$i]->content_id)->find_one());
+  }
+
+  for ($i = 0; $i < count($articles); $i++) {
+    array_push($authors, get_author($articles[$i]->author_id));
+  }
+
+  for ($i = 0; $i < count($articles); $i++) {
+    array_push($banners, get_banner($articles[$i]->banner_id));
+  }
+
+  array_push($info, $articles, $authors, $banners);
+
+  return $info;
 }
 
 // print values for debugging

@@ -19,6 +19,6 @@ $('#test-button').click(function() {
 });
 
 $('.content-category-button').click(function() {
-  console.log(this.id);
-  $('.content-articles').load("content/_article-list.php");
+  // console.log(this.id);
+  $('.content-articles').load("content/_article-list.php?category=" + this.id);
 });
