@@ -8,19 +8,19 @@ require_once "_header.php";
     <div class="col-md-6 background-dark-blue">
       <h1 tabindex="0">What is your role?</h1>
       <ul class="text-left">
-        <a href="http://localhost:8888/build-for-all/content-page.php?article=2" target="_self"><li tabindex="0" class="background-light-blue">CEO</li></a>
-        <a href="http://localhost:8888/build-for-all/content-page.php?article=3" target="_self"><li tabindex="0" class="background-light-blue">Designer</li></a>
-        <a href="http://localhost:8888/build-for-all/content-page.php?article=7" target="_self"><li tabindex="0" class="background-light-blue">Developer</li></a>
-        <a href="http://localhost:8888/build-for-all/content-page.php?article=4" target="_self"><li tabindex="0" class="background-light-blue">Marketer</li></a>
+        <a href="content-page.php?article=2" target="_self"><li class="background-light-blue">CEO</li></a>
+        <a href="content-page.php?article=3" target="_self"><li class="background-light-blue">Designer</li></a>
+        <a href="content-page.php?article=7" target="_self"><li class="background-light-blue">Developer</li></a>
+        <a href="content-page.php?article=4" target="_self"><li class="background-light-blue">Marketer</li></a>
       </ul>
     </div>
     <div class="col-md-6 background-light-blue">
       <h1 tabindex="0">We can help you with:</h1>
       <ul class="text-left">
-        <a href="http://localhost:8888/build-for-all/content-page.php?article=8" target="_self"><li tabindex="0" class="background-dark-blue">Web</li></a>
-        <a href="http://localhost:8888/build-for-all/content-page.php?article=5" target="_self"><li tabindex="0" class="background-dark-blue">Video</li></a>
-        <a href="http://localhost:8888/build-for-all/content-page.php?article=6" target="_self"><li tabindex="0" class="background-dark-blue">SEO</li></a>
-        <a href="http://localhost:8888/build-for-all/content-page.php?article=1" target="_self"><li tabindex="0" class="background-dark-blue">Definitions</li></a>
+        <a href="content-page.php?article=8" target="_self"><li class="background-dark-blue">Web</li></a>
+        <a href="content-page.php?article=5" target="_self"><li class="background-dark-blue">Video</li></a>
+        <a href="content-page.php?article=6" target="_self"><li class="background-dark-blue">SEO</li></a>
+        <a href="content-page.php?article=1" target="_self"><li class="background-dark-blue">Definitions</li></a>
       </ul>
     </div>
   </div>

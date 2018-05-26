@@ -40,7 +40,7 @@ if (!$latest_post || !$author || !$banner) {
       <img tabindex="0" src="img/banner_img/<?php echo $banner->id; ?>.jpg" alt="<?php echo $banner->alt_text; ?>" class="content-section-1-banner">
     </div>
     <div class="col-md-6 align-middle">
-      <a href="content-page.php?article=<?php echo $latest_post[0]->id; ?>" target="_self"><p tabindex="0" class="font-bold"><?php echo $latest_post[0]->title; ?></p></a>
+      <a href="content-page.php?article=<?php echo $latest_post[0]->id; ?>" target="_self"><p class="font-bold"><?php echo $latest_post[0]->title; ?></p></a>
       <p tabindex="0" class="color-grey"><?php echo $latest_post[0]->summary; ?></p>
       <div class="row content-section-1-author-img-p">
         <div class="col-3 text-center">

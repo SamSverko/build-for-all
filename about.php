@@ -47,12 +47,12 @@ require_once "_header.php";
   <h1 tabindex="0" class="font-bold">Meet the team</h1>
   <div class="row color-grey">
     <div class="col-sm-6">
-      <img src="img/author/image_katlynn.jpg" class="rounded-circle" alt="Katlynn Sverko headshot">
+      <img tabindex="0" src="img/author/image_katlynn.jpg" class="rounded-circle" alt="Katlynn Sverko headshot">
       <p tabindex="0" class="font-bold">Katlynn Sverko</p>
       <p tabindex="0">Project Lead</p>
     </div>
     <div class="col-sm-6">
-      <img src="img/author/image_sam.jpg" class="rounded-circle" alt="Sam Legros headshot">
+      <img tabindex="0" src="img/author/image_sam.jpg" class="rounded-circle" alt="Sam Legros headshot">
       <p tabindex="0" class="font-bold">Sam Legros</p>
       <p tabindex="0">Developer</p>
     </div>

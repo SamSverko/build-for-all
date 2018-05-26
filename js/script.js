@@ -9,13 +9,13 @@ function on_index_load() {
 function on_content_load() {
   $('#nav-content').addClass("active");
   console.log(window.location.href);
-  if (window.location.href == 'http://localhost:8888/build-for-all/content.php?category=content_design') {
+  if (window.location.href == 'http://localhost:8888/build-for-all/content.php?category=content_design' || window.location.href ==  'http://buildforall.ca/content.php?category=content_design') {
     $('#content_design').trigger('click');
     // console.log("DESIGN");
-  } else if (window.location.href == 'http://localhost:8888/build-for-all/content.php?category=content_development') {
+  } else if (window.location.href == 'http://localhost:8888/build-for-all/content.php?category=content_development' || window.location.href ==  'http://buildforall.ca/content.php?category=content_development') {
     $('#content_development').trigger('click');
     // console.log("DEV");
-  } else if (window.location.href == 'http://localhost:8888/build-for-all/content.php?category=content_stories') {
+  } else if (window.location.href == 'http://localhost:8888/build-for-all/content.php?category=content_stories' || window.location.href ==  'http://buildforall.ca/content.php?category=content_stories') {
     $('#content_stories').trigger('click');
     // console.log("STORY");
   } else {
