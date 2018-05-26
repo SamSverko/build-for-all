@@ -8,6 +8,7 @@ function on_index_load() {
 
 function on_content_load() {
   $('#nav-content').addClass("active");
+  $('#content_business').trigger('click');
 }
 
 function on_about_load() {
@@ -19,6 +20,7 @@ $('#test-button').click(function() {
 });
 
 $('.content-category-button').click(function() {
-  // console.log(this.id);
+  $('.content-category-button').css('color', 'var(--text-color-grey)');
+  $('#' + this.id).css('color', 'var(--text-color-black)');
   $('.content-articles').load("content/_article-list.php?category=" + this.id);
 });

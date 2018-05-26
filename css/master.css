@@ -431,3 +431,7 @@ nav a:hover {
   max-width: 500px;
   margin-bottom: 25px;
 }
+
+.content-article-list {
+  margin: 50px 0px;
+}
