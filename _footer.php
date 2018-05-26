@@ -29,10 +29,10 @@
         <div class="col-sm-4">
           <ul>
             <li tabindex="0" class="font-bold" style="margin-bottom: 15px;">CONTENT</li>
-            <a href="#" target="_self"><li>Business</li></a>
-            <a href="#" target="_self"><li>Design</li></a>
-            <a href="#" target="_self"><li>Development</li></a>
-            <a href="#" target="_self"><li>Stories</li></a>
+            <a href="content.php" target="_self"><li>Business</li></a>
+            <a href="content.php?category=content_design" target="_self"><li>Design</li></a>
+            <a href="content.php?category=content_development" target="_self"><li>Development</li></a>
+            <a href="content.php?category=content_stories" target="_self"><li>Stories</li></a>
           </ul>
         </div>
         <div class="col-sm-4">
