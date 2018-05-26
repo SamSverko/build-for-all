@@ -2,7 +2,7 @@
 require_once "inc/config.php";
 
 $article = get_article($g['article']);
-$author = get_author($article->id);
+$author = get_author($article->author_id);
 $banner = get_banner($article->banner_id);
 
 $pageTitle = $article->title;
@@ -34,6 +34,8 @@ if (!$article || !$author || !$banner) {
   </div>
   <!-- article content -->
   <?php include "content/content." . $article->id . ".php"; ?>
+  <!-- article signoff -->
+  <p>If you found this article helpful, give us a like to let us know.</p>
 </div>
 
 <?php

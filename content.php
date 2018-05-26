@@ -26,6 +26,10 @@ include "content/_latest-article.php"; // content-section-1
 
 <hr class="contain-to-1000" style="margin-top: 30px;">
 
+<div class="container-fluid contain-to-1000">
+  
+</div>
+
 <?php
 require_once "_footer.php";
 ?>
