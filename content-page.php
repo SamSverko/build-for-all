@@ -30,7 +30,7 @@ if (!$article || !$author || !$banner) {
   <h1 class="content-article-title"><?php echo $article->title; ?></h1>
   <!-- banner img -->
   <div class="container-fluid content-article-img">
-    <img src="<?php echo $banner->img_src ?>" alt="<?php echo $banner->alt_text ?>" class="content-article-img">
+    <img src="img/banner_img/<?php echo $banner->id; ?>.jpg" alt="<?php echo $banner->alt_text ?>" class="content-article-img">
   </div>
   <!-- article content -->
   <?php include "content/content." . $article->id . ".php"; ?>

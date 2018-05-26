@@ -48,6 +48,14 @@ a:hover {
   color: var(--text-color-grey);
 }
 
+code {
+  display: inline;
+}
+
+xmp {
+  display: inline;
+}
+
 .contain-to-1000 {
   max-width: 1000px;
 }
