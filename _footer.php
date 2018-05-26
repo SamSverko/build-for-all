@@ -22,18 +22,17 @@
           <ul>
             <li tabindex="0" class="font-bold" style="margin-bottom: 15px;">SITE</li>
             <a href="about.php" target="_self"><li>About</li></a>
-            <a href="content.php" target="_self"><li>Contact</li></a>
+            <a href="#" target="_self"><li>Contact</li></a>
             <a href="#" target="_self"><li>Site Map</li></a>
           </ul>
         </div>
         <div class="col-sm-4">
           <ul>
             <li tabindex="0" class="font-bold" style="margin-bottom: 15px;">CONTENT</li>
-            <a href="#" target="_self"><li>Advertising</li></a>
-            <a href="#" target="_self"><li>Auditing</li></a>
+            <a href="#" target="_self"><li>Business</li></a>
             <a href="#" target="_self"><li>Design</li></a>
-            <a href="#" target="_self"><li>Sales</li></a>
-            <a href="#" target="_self"><li>SEO</li></a>
+            <a href="#" target="_self"><li>Development</li></a>
+            <a href="#" target="_self"><li>Stories</li></a>
           </ul>
         </div>
         <div class="col-sm-4">

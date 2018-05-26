@@ -26,7 +26,7 @@ require_once "_header.php";
   </div>
 </div>
 
-<?php include __DIR__ .  "/content/latest-article.php"; ?>
+<?php include __DIR__ .  "/content/_latest-article.php"; ?>
 
 <hr class="contain-to-1000">
 

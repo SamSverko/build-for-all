@@ -1,6 +1,6 @@
 <?php
 
-// get latest post from content table
+// get latest post
 function get_latest_post() {
   $all_posts = ORM::for_table('content')->find_many();
   $all_posts_id = array();
@@ -14,6 +14,27 @@ function get_latest_post() {
   return $latest_post;
 }
 
+// get article
+function get_article($article_id) {
+  $article = ORM::for_table('content')->where_like('id', $article_id)->find_one();
+  
+  return $article;
+}
+
+// get author from post
+function get_author($author_id) {
+  $author = ORM::for_table('author_info')->where_like('id', $author_id)->find_one();
+
+  return $author;
+}
+
+// get content banner image
+function get_banner($banner_id) {
+  $banner = ORM::for_table('banner_img')->where_like('id', $banner_id)->find_one();
+
+  return $banner;
+}
+
 // print values for debugging
 function pre_out($x, $header = NULL) {
   echo "<pre>";
@@ -22,26 +43,6 @@ function pre_out($x, $header = NULL) {
   }
   print_r($x);
   echo "</pre>";
-}
-
-// get author picture src
-function get_author_picture($author) {
-  $image_src = "img/image_";
-  if ($author == "Katlynn Sverko") {
-    $image_src .= "katlynn";
-    $image_alt = "katlynn sverko headshot";
-  } else if ($author == "Marcela Correa Villada") {
-    $image_src .= "marcela";
-    $image_alt = "marcela correa villada headshot";
-  } else if ($author == "Sam Legros") {
-    $image_src .= "sam";
-    $image_alt = "sam legros headshot";
-  }
-  $image_src .= ".jpg";
-
-  $author_info = array($image_src, $image_alt);
-
-  return $author_info;
 }
 
 // php console.log() equivalent for json objects

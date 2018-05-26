@@ -1,5 +1,3 @@
-<h1 class="font-bold" style="margin-bottom: 25px;">Inclusive Innovation Accessibility Definitions</h1>
-
 <p><b>A11y / a11y:</b> Frequently used on social media the term a11y is a short form of term accessibility. The eleven (11) represents the eleven letters between the a and the y.</p>
 
 <p><b>Accessibility:</b> Designing products, services, and environments so that people with disabilities are able to use, or participate in, various activities and opportunities.</p>
