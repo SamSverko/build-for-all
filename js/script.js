@@ -17,3 +17,8 @@ function on_about_load() {
 $('#test-button').click(function() {
   console.log("HIT");
 });
+
+$('.content-category-button').click(function() {
+  console.log(this.id);
+  $('.content-articles').load("content/_article-list.php");
+});

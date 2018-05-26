@@ -17,10 +17,10 @@ require_once "_header.php";
     <div class="col-md-6 background-light-blue">
       <h1 tabindex="0">We can help you with:</h1>
       <ul class="text-left">
-        <li tabindex="0" class="background-dark-blue">Auditing</li>
-        <li tabindex="0" class="background-dark-blue">Designer</li>
-        <li tabindex="0" class="background-dark-blue">Developer</li>
-        <li tabindex="0" class="background-dark-blue">Marketer</li>
+        <li tabindex="0" class="background-dark-blue">Web</li>
+        <li tabindex="0" class="background-dark-blue">Sales</li>
+        <li tabindex="0" class="background-dark-blue">SEO</li>
+        <li tabindex="0" class="background-dark-blue">View all</li>
       </ul>
     </div>
   </div>

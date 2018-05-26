@@ -20,13 +20,24 @@ if (get_latest_post()) {
 } else {
   echo "Error retrieving latest post";
 }
+
+$latest_post = get_latest_post();
+$author = get_author($latest_post[0]->author_id);
+$banner = get_banner($latest_post[0]->banner_id);
+
+// if error on any variable
+if (!$latest_post || !$author || !$banner) {
+  // Display error message
+  echo "Error loading latest article";
+} else {
+}
 ?>
 
 <div class="container-fluid contain-to-1000 content-section-1">
   <h1 tabindex="0" class="font-bold text-center">Latest article</h1>
   <div class="row">
     <div class="col-md-6 text-center">
-      <img tabindex="0" src="<?php echo $banner->img_src; ?>" alt="<?php echo $banner->alt_text; ?>" class="content-section-1-banner">
+      <img tabindex="0" src="img/banner_img/<?php echo $banner->id; ?>.jpg" alt="<?php echo $banner->alt_text; ?>" class="content-section-1-banner">
     </div>
     <div class="col-md-6 align-middle">
       <a href="content-page.php?article=<?php echo $latest_post[0]->id; ?>" target="_self"><p tabindex="0" class="font-bold"><?php echo $latest_post[0]->title; ?></p></a>
