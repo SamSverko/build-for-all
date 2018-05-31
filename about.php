@@ -6,7 +6,7 @@ require_once "_header.php";
 <div class="container-fluid contain-to-1000 about-section-1">
   <h1 tabindex="0" class="font-bold">Making startups more accessible</h1>
   <p tabindex="0">At Inclusive Innovation, we're building a platform that connects startups with resources they need to develop accessible and inclusive products and services. People around the world are joining the movement to begin their ventures with accessibility in mind right from the very beginning, creating with everyone in mind.</p>
-  <div class="background-light-blue" id="about-section-1-img"></div>
+  <img src="img/graphic_more_accessible.png" alt="two happy people reading books" id="about-section-1-img">
 </div>
 
 <div class="container-fluid contain-to-1000 about-section-2 text-center">
@@ -36,7 +36,8 @@ require_once "_header.php";
       <p tabindex="0" class="color-grey">Our goal is to provide the community with education and processes on how to successfully implement accessible options, while addressing the fact that startups are already overburdened and are being pulled in many different directions. Everyone deserves access to technology, and everyone deserves access on equal terms.</p>
     </div>
     <div class="col-sm-6">
-      <div class="background-light-blue" id="about-section-3-img"></div>
+      <div class="background-light-blue"></div>
+      <img src="img/graphic_inclusive_building.png" alt="two happy people building a structure together" id="about-section-3-img">
     </div>
   </div>
 </div>

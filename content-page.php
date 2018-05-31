@@ -27,15 +27,15 @@ if (!$article || !$author || !$banner) {
     </div>
   </div>
   <!-- article title -->
-  <h1 class="content-article-title"><?php echo $article->title; ?></h1>
+  <h1 tabindex="0" class="content-article-title"><?php echo $article->title; ?></h1>
   <!-- banner img -->
   <div class="container-fluid content-article-img">
-    <img src="img/banner_img/<?php echo $banner->id; ?>.jpg" alt="<?php echo $banner->alt_text ?>" class="content-article-img">
+    <img tabindex="0" src="img/banner_img/<?php echo $banner->id; ?>.jpg" alt="<?php echo $banner->alt_text ?>" class="content-article-img">
   </div>
   <!-- article content -->
   <?php include "content/content." . $article->id . ".php"; ?>
   <!-- article signoff -->
-  <p>If you found this article helpful, give us a like to let us know.</p>
+  <p tabindex="0">If you found this article helpful, give us a like to let us know.</p>
 </div>
 
 <?php

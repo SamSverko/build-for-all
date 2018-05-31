@@ -299,6 +299,7 @@ nav a:hover {
 /* ABOUT ----------------------------------------------------------- */
 .about-section-1 {
   text-align: center;
+  max-width: 1000px;
 }
 
 .about-section-1 h1 {
@@ -312,10 +313,8 @@ nav a:hover {
 }
 
 #about-section-1-img {
-  margin-top: 25px;
+  margin: 50px auto;
   width: 100%;
-  height: 300px;
-  background-color: var(--buildforall-color-light-blue);
 }
 
 .about-section-2 h1 {
@@ -337,8 +336,6 @@ nav a:hover {
 
 #about-section-3-img {
   width: 100%;
-  height: 275px;
-  background-color: var(--buildforall-color-light-blue);
 }
 
 .about-section-4 {
