@@ -3,6 +3,10 @@
 - HEADER
 - FOOTER
 - INDEX
+- ABOUT
+- CONTENT
+- CONTENT-PAGE / ARTICLE
+- RESOURCES
 */
 
 /* SITEWIDE ----------------------------------------------------------- */
@@ -437,4 +441,20 @@ nav a:hover {
 
 .content-article-list {
   margin: 50px 0px;
+}
+
+
+/* RESOURCES ----------------------------------------------------------- */
+.resources-section-1 {
+  text-align: center;
+  max-width: 1000px;
+}
+
+.resources-section-1 h1 {
+  padding: 50px 0px 25px 0px;
+}
+
+.resources-section-1 p {
+  max-width: 500px;
+  margin: 0 auto;
 }

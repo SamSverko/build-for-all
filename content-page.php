@@ -32,12 +32,21 @@ if (!$article || !$author || !$banner) {
   <div class="container-fluid content-article-img">
     <img tabindex="0" src="img/banner_img/<?php echo $banner->id; ?>.jpg" alt="<?php echo $banner->alt_text ?>" class="content-article-img">
   </div>
-  <!-- article content -->
-  <?php include "content/content." . $article->id . ".php"; ?>
-  <!-- article signoff -->
-  <p tabindex="0">If you found this article helpful, give us a like to let us know.</p>
+  <!-- begin reading time -->
+  <article>
+    <div class="eta" style="display: inline"></div><p style="display: inline"> read<br><br></p>
+    <!-- article content -->
+    <?php include "content/content." . $article->id . ".php"; ?>
+    <!-- article signoff -->
+    <p tabindex="0">If you found this article helpful, give us a like to let us know.</p>
+    <!-- end reading time -->
+  </article>
 </div>
 
 <?php
 require_once "_footer.php";
 ?>
+
+<script type="text/javascript">
+$('article').readingTime();
+</script>

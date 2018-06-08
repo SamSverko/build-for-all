@@ -57,7 +57,7 @@
         <p class="font-bold"><a href="#" target="_self">Contact</a></p>
       </div>
       <div class="col-sm-6">
-        <p class="font-bold"><a href="index.php" target="_self">© Inclusive Innovation 2018</a></p>
+        <p class="font-bold"><a href="index.php" target="_self">© Build for All 2018</a></p>
       </div>
     </div>
   </div>
@@ -69,9 +69,11 @@
 <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+<!-- CDN Reading Time -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reading-time/2.0.0/readingTime.min.js"></script>
 <!-- local JavaScript -->
 <script src="js/script.js"></script>
 <!-- LiveReload -->
-<!-- <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script> -->
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>
 </html>

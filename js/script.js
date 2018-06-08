@@ -28,6 +28,10 @@ function on_about_load() {
   $('#nav-about').addClass("active");
 }
 
+function on_resources_load() {
+  $('#nav-resources').addClass("active");
+}
+
 $('#test-button').click(function() {
   console.log("HIT");
 });

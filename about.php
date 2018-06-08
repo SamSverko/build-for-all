@@ -5,7 +5,7 @@ require_once "_header.php";
 
 <div class="container-fluid contain-to-1000 about-section-1">
   <h1 tabindex="0" class="font-bold">Making startups more accessible</h1>
-  <p tabindex="0">At Inclusive Innovation, we're building a platform that connects startups with resources they need to develop accessible and inclusive products and services. People around the world are joining the movement to begin their ventures with accessibility in mind right from the very beginning, creating with everyone in mind.</p>
+  <p tabindex="0">At Build for All, we're building a platform that connects startups with resources they need to develop accessible and inclusive products and services. People around the world are joining the movement to begin their ventures with accessibility in mind right from the very beginning, creating with everyone in mind.</p>
   <img src="img/graphic_more_accessible.png" alt="two happy people reading books" id="about-section-1-img">
 </div>
 
