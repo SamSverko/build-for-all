@@ -22,7 +22,7 @@
           <ul>
             <li tabindex="0" class="font-bold" style="margin-bottom: 15px;">SITE</li>
             <a href="about.php" target="_self"><li>About</li></a>
-            <a href="#" target="_self"><li>Contact</li></a>
+            <a href="contact.php" target="_self"><li>Contact</li></a>
             <a href="#" target="_self"><li>Site Map</li></a>
           </ul>
         </div>
@@ -32,7 +32,7 @@
             <a href="content.php" target="_self"><li>Business</li></a>
             <a href="content.php?category=content_design" target="_self"><li>Design</li></a>
             <a href="content.php?category=content_development" target="_self"><li>Development</li></a>
-            <a href="content.php?category=content_stories" target="_self"><li>Stories</li></a>
+            <a href="content-page.php?article=1" target="_self"><li>Definitions</li></a>
           </ul>
         </div>
         <div class="col-sm-4">
@@ -54,10 +54,10 @@
         <p class="font-bold"><a href="#" target="_self">Privacy & Terms</a></p>
       </div>
       <div class="col-sm-3">
-        <p class="font-bold"><a href="#" target="_self">Contact</a></p>
+        <p class="font-bold"><a href="contact.php" target="_self">Contact</a></p>
       </div>
       <div class="col-sm-6">
-        <p class="font-bold"><a href="index.php" target="_self">© Build for All 2018</a></p>
+        <p class="font-bold"><i class="far fa-copyright"></i> Build for All 2018</p>
       </div>
     </div>
   </div>

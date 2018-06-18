@@ -10,17 +10,14 @@ include "content/_latest-article.php"; // content-section-1
 
 <div class="container-fluid contain-to-1000 content-section-2">
   <div tabindex="0" role="group" aria-label="article categories" class="row">
-    <div class="col-sm-3">
+    <div class="col-sm-4">
       <p tabindex="0" class="content-category-button" id="content_business">BUSINESS</p>
     </div>
-    <div class="col-sm-3">
+    <div class="col-sm-4">
       <p tabindex="0" class="content-category-button" id="content_design">DESIGN</p>
     </div>
-    <div class="col-sm-3">
+    <div class="col-sm-4">
       <p tabindex="0" class="content-category-button" id="content_development">DEVELOPMENT</p>
-    </div>
-    <div class="col-sm-3">
-      <p tabindex="0" class="content-category-button" id="content_stories">STORIES</p>
     </div>
   </div>
 </div>

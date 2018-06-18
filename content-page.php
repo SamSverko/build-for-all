@@ -34,7 +34,7 @@ if (!$article || !$author || !$banner) {
   </div>
   <!-- begin reading time -->
   <article>
-    <div class="eta" style="display: inline"></div><p style="display: inline"> read<br><br></p>
+    <div tabindex="0" class="eta" style="display: inline"></div><p style="display: inline"> read<br><br></p>
     <!-- article content -->
     <?php include "content/content." . $article->id . ".php"; ?>
     <!-- article signoff -->

@@ -62,6 +62,31 @@ function get_articles_by_category($category) {
   return $info;
 }
 
+// post contact form to database
+function send_to_database($p) {
+  $send_data = ORM::for_table('contact')->create();
+
+  $data['subject'] = $p['contact-subject'];
+  $data['email'] = $p['contact-email'];
+  $data['text'] = $p['contact-text'];
+
+  $send_data->set($data);
+
+  $send_data->save();
+
+  // send the email
+  $email_from = $p['contact-email'];
+  $email_subject = $p['contact-subject'];
+  $email_body = $p['contact-text'];
+
+  $to = "email@samlegros.com";
+  $headers = "From: $email_from \r\n";
+
+  mail($to,$email_subject,$email_body,$headers);
+
+  return $send_data;
+}
+
 // print values for debugging
 function pre_out($x, $header = NULL) {
   echo "<pre>";

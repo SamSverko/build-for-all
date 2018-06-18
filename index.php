@@ -9,10 +9,9 @@ require_once "_header.php";
     <div class="col-md-6 background-dark-blue">
       <h1 tabindex="0">What is your role?</h1>
       <ul class="text-left">
-        <a href="content-page.php?article=2" target="_self"><li class="background-light-blue">CEO</li></a>
-        <a href="content-page.php?article=3" target="_self"><li class="background-light-blue">Designer</li></a>
-        <a href="content-page.php?article=7" target="_self"><li class="background-light-blue">Developer</li></a>
-        <a href="content-page.php?article=4" target="_self"><li class="background-light-blue">Marketer</li></a>
+        <a href="content.php?category=content_business" target="_self"><li class="background-light-blue">Business</li></a>
+        <a href="content.php?category=content_design" target="_self"><li class="background-light-blue">Design</li></a>
+        <a href="content.php?category=content_development" target="_self"><li class="background-light-blue" style="margin-bottom: 50px;">Development</li></a>
       </ul>
     </div>
     <div class="col-md-6 background-light-blue">
@@ -20,8 +19,7 @@ require_once "_header.php";
       <ul class="text-left">
         <a href="content-page.php?article=8" target="_self"><li class="background-dark-blue">Web</li></a>
         <a href="content-page.php?article=5" target="_self"><li class="background-dark-blue">Video</li></a>
-        <a href="content-page.php?article=6" target="_self"><li class="background-dark-blue">SEO</li></a>
-        <a href="content-page.php?article=1" target="_self"><li class="background-dark-blue">Definitions</li></a>
+        <a href="content-page.php?article=6" target="_self"><li class="background-dark-blue" style="margin-bottom: 50px;">SEO</li></a>
       </ul>
     </div>
   </div>
