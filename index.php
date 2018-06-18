@@ -1,5 +1,6 @@
 <?php
 $pageTitle = "Home";
+$active = '#nav-index';
 require_once "_header.php";
 ?>
 
@@ -26,10 +27,6 @@ require_once "_header.php";
   </div>
 </div>
 
-<?php include __DIR__ .  "/content/_latest-article.php"; ?>
-
-<hr class="contain-to-1000">
-
 <div class="container-fluid contain-to-1000 index-section-3 text-center">
   <h1 tabindex="0" class="font-bold">You're in good company</h1>
   <p tabindex="0" class="color-grey">Many influencial companies have already made their businesses accessible.</p>
@@ -45,6 +42,10 @@ require_once "_header.php";
     </div>
   </div>
 </div>
+
+<hr class="contain-to-1000" style="margin-bottom: 0px;">
+
+<?php include __DIR__ .  "/content/_latest-article.php"; ?>
 
 <?php
 require_once "_footer.php";

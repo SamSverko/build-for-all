@@ -8,16 +8,16 @@
 
 <ol>
   <li>
-    <a href="https://help.shopify.com/manual/products/product-variant-images#add-alt-text-to-product-images" target="_blank">Shopify</a>
+    <a href="https://help.shopify.com/manual/products/product-variant-images#add-alt-text-to-product-images" target="_blank">Shopify<i class="fas fa-external-link-alt"></i></a>
   </li>
   <li>
-    <a href="https://www.weebly.com/seo/images" target="_blank">Weebly</a>
+    <a href="https://www.weebly.com/seo/images" target="_blank">Weebly<i class="fas fa-external-link-alt"></i></a>
   </li>
   <li>
-    <a href="https://support.wix.com/en/article/optimizing-your-images-for-seo-alt-text" target="_blank">Wix</a>
+    <a href="https://support.wix.com/en/article/optimizing-your-images-for-seo-alt-text" target="_blank">Wix<i class="fas fa-external-link-alt"></i></a>
   </li>
   <li>
-    <a href="http://www.wpbeginner.com/beginners-guide/image-alt-text-vs-image-title-in-wordpress-whats-the-difference/" target="_blank">WordPress</a>
+    <a href="http://www.wpbeginner.com/beginners-guide/image-alt-text-vs-image-title-in-wordpress-whats-the-difference/" target="_blank">WordPress<i class="fas fa-external-link-alt"></i></a>
   </li>
 </ol>
 

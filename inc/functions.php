@@ -2,14 +2,15 @@
 
 // get latest post
 function get_latest_post() {
-  $all_posts = ORM::for_table('content')->find_many();
-  $all_posts_id = array();
+  // $all_posts = ORM::for_table('content')->find_many();
+  // $all_posts_id = array();
+  //
+  // for ($i = 0; $i < count($all_posts); $i++) {
+  //   array_push($all_posts_id, $all_posts[$i]->id);
+  // }
 
-  for ($i = 0; $i < count($all_posts); $i++) {
-    array_push($all_posts_id, $all_posts[$i]->id);
-  }
-
-  $latest_post = ORM::for_table('content')->where_like('id', max($all_posts_id))->find_many();
+  // $latest_post = ORM::for_table('content')->where_like('id', max($all_posts_id))->find_many();
+  $latest_post = ORM::for_table('content')->where_like('id', 2)->find_many();
 
   return $latest_post;
 }

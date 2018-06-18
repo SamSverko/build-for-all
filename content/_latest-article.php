@@ -34,7 +34,7 @@ if (!$latest_post || !$author || !$banner) {
 ?>
 
 <div class="container-fluid contain-to-1000 content-section-1">
-  <h1 tabindex="0" class="font-bold text-center">Latest article</h1>
+  <h1 tabindex="0" class="font-bold text-center">Featured article</h1>
   <div class="row">
     <div class="col-md-6 text-center">
       <img tabindex="0" src="img/banner_img/<?php echo $banner->id; ?>.jpg" alt="<?php echo $banner->alt_text; ?>" class="content-section-1-banner">

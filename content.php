@@ -1,5 +1,6 @@
 <?php
 $pageTitle = "Content";
+$active = '#nav-content';
 require_once "_header.php";
 
 include "content/_latest-article.php"; // content-section-1

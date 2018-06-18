@@ -18,7 +18,7 @@
         <p>Serif: <span style="font-family: serif">Our startup likes to hold meetings on Monday nights.</span></p>
         <p>Decorative font: <span style="font-family: cursive;">Our startup likes to hold meetings on Monday nights.</span></p>
         <p>Now here is the same text is slightly blurred*:</p>
-        <img src="" alt="blurry text image">
+        <img src="img/content-img/3-blurry-text.png" alt="blurry text image" class="img-fluid">
         <p>Which is the easiest to read?</p>
       </li>
     </ol>
@@ -37,7 +37,7 @@
         <p>Examples:</p>
         <p>Highest contrast ratio of <b>21:1</b>: <span style="color: #000000;">This text is more easy to read because it is highly contrasted.</span></p>
         <p>Low contrast ratio of <b>1.84:1</b>: <span style="color: #BFBFBF;">This text is more difficult to read because it has a low contrast.</span></p>
-        <p>Resource: <a href="https://webaim.org/resources/contrastchecker/" target="_blank">Learn more about contrast</a>.</p>
+        <p>Resource: <a href="https://webaim.org/resources/contrastchecker/" target="_blank">Learn more about contrast<i class="fas fa-external-link-alt"></i></a>.</p>
       </li>
     </ol>
   </li>
@@ -64,7 +64,7 @@
         <p>Small text size: <span style="font-size: 0.5em;">Choosing the right sized text is important.</span></p>
         <p>Optimal text size:  Choosing the right sized text is important.</p>
         <p>Now here is the same text slightly blurred:</p>
-        <img src="" alt="blurry image of text">
+        <img src="img/content-img/3-blurry-text-size.png" alt="blurry image of text" class="img-fluid">
       </li>
     </ol>
   </li>

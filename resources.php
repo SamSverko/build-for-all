@@ -1,9 +1,8 @@
 <?php
 $pageTitle = "About";
+$active = '#nav-resources';
 require_once "_header.php";
 ?>
-
-<!-- <div id="resources-page" style="background-color: var(--background-color-light-grey);"> -->
 
 <div class="container-fluid contain-to-1000 resources-section-1">
   <h1 tabindex="0" class="font-bold">Making startups more accessible</h1>

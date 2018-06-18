@@ -35,7 +35,7 @@
         <p>Colour relates heavily to contrast, and while it may add personality it should be used sparingly. Materials, both printed and online, are easier to read when they are black and white. A rule of thumb is to restrict use of colours to headings, titles, and emphasized materials.</p>
       </li>
       <li>
-        <p><p>Resource: <a href="https://webaim.org/resources/contrastchecker/" target="_blank">Learn more about contrast</a>.</p></p>
+        <p><p>Resource: <a href="https://webaim.org/resources/contrastchecker/" target="_blank">Learn more about contrast<i class="fas fa-external-link-alt"></i></a>.</p></p>
         <p>Good example:</p>
         <code>
           color: #FFFFFF; /* white */<br>
@@ -104,7 +104,7 @@
     <ol type="a">
       <li>
         <p>If you are writing longer articles dividing your text into columns increases comprehension as it requires less eye movement. Readers do not have to use their peripheral vision as often if text is broken into columns.</p>
-        <p>Using frameworks like <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a> make grid systems easy and accessible</p>
+        <p>Using frameworks like <a href="https://getbootstrap.com/" target="_blank">Bootstrap<i class="fas fa-external-link-alt"></i></a> make grid systems easy and accessible</p>
         <p>Example:</p>
         <code><xmp><div class="container">
   <div class="row">

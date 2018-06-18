@@ -46,7 +46,7 @@
     </xmp>
   </code>
 
-  <p>Please note you can style the <code>#skiptocontent</code> focus link in a way that matches your website’s aesthetic and branding, just keep in mind <a href="http://localhost:8888/build-for-all/content-page.php?article=3" target="_self">contrast and text visibility </a>.</p>
+  <p>Please note you can style the <code>#skiptocontent</code> focus link in a way that matches your website’s aesthetic and branding, just keep in mind <a href="http://localhost:8888/build-for-all/content-page.php?article=3" target="_self">contrast and text visibility</a>.</p>
 
   <p class="font-bold">Caution:</p>
 

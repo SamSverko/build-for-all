@@ -8,7 +8,8 @@ require_once __DIR__ . "/inc/config.php";
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+  <!-- cdn Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
   <!-- local CSS -->
@@ -17,6 +18,7 @@ require_once __DIR__ . "/inc/config.php";
 </head>
 <body class="background-white margin-auto">
 
+  <a class="skip-main" href="#main-content" id="skip-to-main">Skip to main content</a>
   <nav class="navbar navbar-expand-sm fixed-top navbar-light background-white">
     <a href="index.php"><span class="navbar-brand mb-0 h1 font-bold" style="padding-left: 10px; color: var(--text-color-grey)" id="nav-index">Build for All</span></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,6 +36,9 @@ require_once __DIR__ . "/inc/config.php";
             <a class="nav-link color-grey" href="content.php" id="nav-content">Content</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link color-grey" href="content-page.php?article=1" id="nav-definitions">Definitions</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link color-grey" href="resources.php" id="nav-resources">Resources</a>
           </li>
           <li class="nav-item">
@@ -46,3 +51,5 @@ require_once __DIR__ . "/inc/config.php";
       </span>
     </div>
   </nav>
+
+  <p id="main-content" tabindex="-1" aria-describedby="You are now in the main content_development"></p>

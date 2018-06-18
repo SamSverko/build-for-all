@@ -1,5 +1,6 @@
 <?php
 $pageTitle = "About";
+$active = '#nav-about';
 require_once "_header.php";
 ?>
 

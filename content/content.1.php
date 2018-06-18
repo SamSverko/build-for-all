@@ -1,12 +1,16 @@
+<?php
+$active = '#nav-definitions';
+?>
+
 <p><b>A11y / a11y:</b> Frequently used on social media the term a11y is a short form of term accessibility. The eleven (11) represents the eleven letters between the a and the y.</p>
 
 <p><b>Accessibility:</b> Designing products, services, and environments so that people with disabilities are able to use, or participate in, various activities and opportunities.</p>
 
-<p><b>ADA (Americans with Disabilities Act) and ADAAA (Americans with Disabilities Act Amendments Act):</b> A civil rights law in the United States of America that forbids discrimination against individuals with disabilities in order to facilitate equal opportunities in public life. These opportunities include: transportation, employment, communication, access to services, and accommodation. <a href="https://www.ada.gov/2010_regs.htm" target="_blank">More information on ADA.</a></p>
+<p><b>ADA (Americans with Disabilities Act) and ADAAA (Americans with Disabilities Act Amendments Act):</b> A civil rights law in the United States of America that forbids discrimination against individuals with disabilities in order to facilitate equal opportunities in public life. These opportunities include: transportation, employment, communication, access to services, and accommodation. <a href="https://www.ada.gov/2010_regs.htm" target="_blank">More information on ADA<i class="fas fa-external-link-alt"></i></a>.</p>
 
 <p><b>Alt-text:</b> Alternative text for images typically implemented through code or through special tools on website builders such as Shopify, Weebly, Wix, and Wordpress. Alt-text is used to provide information related to images for those with vision loss and is frequently used through screen reader technology.</p>
 
-<p><b>AODA (Accessibility for Ontarians with Disabilities Act):</b> An act that aims to make Ontario fully accessible, both online and in physical locations by 2025. <a href="https://www.aoda.ca/the-act/" target="_blank">More information on AODA</a>.</p>
+<p><b>AODA (Accessibility for Ontarians with Disabilities Act):</b> An act that aims to make Ontario fully accessible, both online and in physical locations by 2025. <a href="https://www.aoda.ca/the-act/" target="_blank">More information on AODA<i class="fas fa-external-link-alt"></i></a>.</p>
 
 <p><b>Assistive Technology (AT):</b> Device or software that helps increase or maintain the functional capacity of an individual with a disability to accomplish a task. AT can be low-tech, an example of this is a communication book. AT can also be high-tech through the use of specialized computers, electronic devices, power wheelchairs.</p>
 

@@ -38,8 +38,8 @@
         <div class="col-sm-4">
           <ul>
             <li tabindex="0" class="font-bold" style="margin-bottom: 15px;">RESOURCES</li>
-            <a href="#" target="_self"><li>WCAG 2.0</li></a>
-            <a href="#" target="_self"><li>AODA</li></a>
+            <a href="#" target="_self"><li>WCAG 2.0<i class="fas fa-external-link-alt"></i></li></a>
+            <a href="#" target="_self"><li>AODA<i class="fas fa-external-link-alt"></i></li></a>
           </ul>
         </div>
       </div>
@@ -77,3 +77,9 @@
 <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>
 </html>
+
+<script type="text/javascript">
+<?php if ($active) { ?>
+	$('<?=$active?>').addClass('active');
+	<?php } ?>
+</script>
