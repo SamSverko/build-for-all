@@ -47,9 +47,18 @@ if (!$article || !$author || !$banner) {
   } else {
     like_article($g['like']);
     echo '<p tabindex="0" id="content-article-like">Select the <a href="content-page.php?article=' . $article->id . '&like=' . $article->id . '"><i tabindex="0" class="far fa-thumbs-up"></i></a> to like article.</p>';
-    echo '<p tabindex="0" id="content-article-like">Thank you for the like<i class="fas fa-thumbs-up"></i></p>';
+    echo '<p tabindex="0" id="content-article-like">Thank you for the like<i class="fas fa-thumbs-up" style="cursor: default;"></i></p>';
   }
-
+  $likes = get_likes($article->id);
+  if ($likes) {
+    if ($likes == 1) {
+      echo '<p tabindex="0">This article has been liked once.</p>';
+    } else {
+      echo '<p tabindex="0">This article has been liked ' . $likes . ' times.</p>';
+    }
+  } else {
+    echo '<p tabindex="0">This article has not yet been liked.</p>';
+  }
   ?>
 
 </div>

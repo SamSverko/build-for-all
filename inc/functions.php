@@ -87,6 +87,7 @@ function send_to_database($p) {
   return $send_data;
 }
 
+// send like to database
 function like_article($g) {
   $send_data = ORM::for_table('likes')->create();
 
@@ -95,6 +96,12 @@ function like_article($g) {
   $send_data->set($data);
 
   $send_data->save();
+}
+
+// get count of likes for articles
+function get_likes($g) {
+  $number_of_likes = ORM::for_table('likes')->where_like('article_id', $g)->count();
+  return $number_of_likes;
 }
 
 // print values for debugging

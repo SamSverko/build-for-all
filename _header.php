@@ -53,4 +53,4 @@ require_once __DIR__ . "/inc/config.php";
     </div>
   </nav>
 
-  <p id="main-content" tabindex="-1" aria-describedby="You are now in the main content_development"></p>
+  <p id="main-content" tabindex="-1" aria-describedby="You are now in the main content"></p>
