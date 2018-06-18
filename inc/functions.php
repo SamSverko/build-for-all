@@ -79,7 +79,7 @@ function send_to_database($p) {
   $email_subject = $p['contact-subject'];
   $email_body = $p['contact-text'];
 
-  $to = "email@samlegros.com";
+  $to = "katlynnsverko@gmail.com";
   $headers = "From: $email_from \r\n";
 
   mail($to,$email_subject,$email_body,$headers);
