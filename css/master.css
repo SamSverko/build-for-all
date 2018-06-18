@@ -483,6 +483,10 @@ nav a:hover {
   margin: 50px 0px;
 }
 
+#content-article-like i:hover {
+  cursor: pointer;
+}
+
 
 /* RESOURCES ----------------------------------------------------------- */
 .resources-section-1 {

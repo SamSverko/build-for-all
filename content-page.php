@@ -41,6 +41,17 @@ if (!$article || !$author || !$banner) {
     <p tabindex="0">If you found this article helpful, give us a like to let us know.</p>
     <!-- end reading time -->
   </article>
+  <?php
+  if (!$g['like']) {
+    echo '<p tabindex="0" id="content-article-like">Select the <a href="content-page.php?article=' . $article->id . '&like=' . $article->id . '"><i tabindex="0" class="far fa-thumbs-up"></i></a> to like article.</p>';
+  } else {
+    like_article($g['like']);
+    echo '<p tabindex="0" id="content-article-like">Select the <a href="content-page.php?article=' . $article->id . '&like=' . $article->id . '"><i tabindex="0" class="far fa-thumbs-up"></i></a> to like article.</p>';
+    echo '<p tabindex="0" id="content-article-like">Thank you for the like<i class="fas fa-thumbs-up"></i></p>';
+  }
+
+  ?>
+
 </div>
 
 <?php

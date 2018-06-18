@@ -87,6 +87,16 @@ function send_to_database($p) {
   return $send_data;
 }
 
+function like_article($g) {
+  $send_data = ORM::for_table('likes')->create();
+
+  $data['article_id'] = $g;
+
+  $send_data->set($data);
+
+  $send_data->save();
+}
+
 // print values for debugging
 function pre_out($x, $header = NULL) {
   echo "<pre>";
