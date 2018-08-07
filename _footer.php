@@ -7,7 +7,7 @@
       <p tabindex="0" class="color-grey">Let's chat.</p>
     </div>
     <div class="col-sm-4 text-right">
-      <button type="button" class="btn" name="contact-us-button">CONTACT US</button>
+      <button type="button" class="btn" name="contact-us-button" onclick="window.location.replace('contact.php');">CONTACT US</button>
     </div>
   </div>
 </div>
