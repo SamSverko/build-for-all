@@ -79,7 +79,7 @@ function send_to_database($p) {
   $email_subject = 'Build for All Contact Form: ' . $p['contact-subject'];
   $email_body = $p['contact-text'];
 
-  $to = "hello@plaidshorts.ca";
+  $to = "ksverko@ryerson.ca";
   $headers = "From: $email_from \r\n";
 
   mail($to,$email_subject,$email_body,$headers);
